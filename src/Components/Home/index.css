@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+}
+body {
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+}
+.main-container{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/253/638/452/light-background-hd-wallpaper-preview.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-con{
+    background-color:#ffffff;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    padding: 5px;
+}
+.logo-con{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+.heading{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bold;
+}
+.drop-down-container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.dropdown-styling{
+    width: 150px;
+    margin-right: 7px;
+    color: black;
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width:768px){
+    .logo{
+        height: 30px;
+        width: 30px;
+    }
+    .heading{
+        font-size: 20px;
+
+    }
+    .header-con{
+        height: 55px;
+        
+    }
+    .dropdown-styling{
+        width: 90px;
+        margin-right: 7px;
+        font-size: 15px;
+    }
+
+}
+.movies-container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}
