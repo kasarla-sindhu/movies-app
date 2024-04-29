@@ -20,7 +20,7 @@ body {
 }
 .header-con{
     background-color:#ffffff;
-    height: 75px;
+    height: 70px;
     width: 100%;
     display: flex;
     flex-direction: row;
