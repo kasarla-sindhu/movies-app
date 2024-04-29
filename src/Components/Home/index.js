@@ -35,20 +35,14 @@ class Home extends Component{
 
     filterbasedOnLanguage=()=>{
         const {languageSelected}=this.state
-
         const languageData=initialData.filter((eachMovie)=> eachMovie.movielanguages.includes(languageSelected))
         this.setState({data:languageData})
-
-        
     }
 
     filterbasedOnCountry=()=>{
         const {countrySelected}=this.state
-
         const countryData=initialData.filter((eachMovie)=> eachMovie.moviecountries.includes(countrySelected))
-        this.setState({data:countryData})
-
-        
+        this.setState({data:countryData})     
     }
 
     changeLanguage=(e)=>{
