@@ -30,6 +30,6 @@ output:
 
 i have provided the screenshots of small.medium and large view in this project as :
 => small device view
-=> medium device view
+
 => large device view
 
