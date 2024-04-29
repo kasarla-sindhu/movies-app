@@ -7,6 +7,7 @@
 body {
     scrollbar-width: none; /* Hide scrollbar for Firefox */
     -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    margin: 0px;
 }
 .main-container{
     background-color:black;

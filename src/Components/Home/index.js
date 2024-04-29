@@ -59,13 +59,17 @@ class Home extends Component{
         this.setState({countrySelected:e.target.value},this.filterbasedOnCountry)
     }
 
+    getmovies=()=>{
+        this.setState({data:initialData})
+    }
+
     render(){
         const {data}=this.state
         
         return (
             <div className='main-container'>
                 <div className='header-con'>
-                    <div className='logo-con'>
+                    <div className='logo-con' onClick={this.getmovies} >
                         <img src="https://png.pngtree.com/element_our/png/20181227/movie-icon-which-is-designed-for-all-application-purpose-new-png_287896.jpg" alt="movie-logo" className='logo'/>
                         <h1 className='heading'>Movies</h1>
                     </div>
