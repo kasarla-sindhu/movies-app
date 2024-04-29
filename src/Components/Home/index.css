@@ -9,7 +9,7 @@ body {
     -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
 }
 .main-container{
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/253/638/452/light-background-hd-wallpaper-preview.jpg");
+    background-color:black;
     min-height: 100vh;
     width: 100%;
     background-size: cover;
@@ -79,8 +79,8 @@ body {
         margin-right: 7px;
         font-size: 15px;
     }
-
 }
+
 .movies-container{
     margin-top: 80px;
     display: flex;
@@ -89,5 +89,4 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    
 }
